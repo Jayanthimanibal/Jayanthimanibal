@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+    <style>
+	
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background:red;
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 70px;
+			height:70px;
+			border-radius: 50px;
+		}
+		.rightnav {
+			width: 10%;
+			text-align: right;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+      body {
+        font-family: Times New Romen,Lucida Handwriting, sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      input[type=text],
+      select,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #e7e2e9;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 8px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type=submit] {
+        background-color: #4cd9c6;
+        color: #ffffff;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+      }
+      input[type=submit]:hover {
+        background-color: #ffd700;
+      }
+      .container {
+        border-radius: 8px;
+        background-color: #3d96aa;
+        padding: 15px;
+      }
+	  
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Times New Romen', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: white;
+		}
+    </style>
+  </head>
+  <body>
+  <nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png">
+			</div>
+			<li><a href="about.html">settings</a></li>
+			<li><a href="">Phone</a></li>
+			<li><a href="">Zoom </a></li>
+			<li><a href="contact.html">contact us</a></li>
+			
+		</ul>
+  	<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+	</div>
+   </nav>	
+    <center><h2>Contact Us</h2></center>
+    <div class="container">
+      <form action="/form/submit" method="POST">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="name" placeholder="Type your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="surname" placeholder="Type your last name..">
+        <label for="lname">E-mail Address</label>
+        <input type="text" id="mail" name="e-mail" placeholder="Type your e-mail..">
+        <label for="ci">Country</label>
+        <select id="country" name="country">
+          <option value="italy">Italy</option>
+          <option value="spain">Spain</option>
+          <option value="france">France</option>
+        </select>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Type your message.." style="height:200px"></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </div>
+		<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved
+		</p>
+
+
+	</footer>
+  </body>
+</html>
