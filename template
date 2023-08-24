@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>MY WEBPAGE</title>
+<center>
+<h1>SUBJECT OF COMPUTER SCIENCE DEPARTMENT<h1>
+</center>
+<div style="background-color:cornsilk;height:100px;">
+<center>
+  <h2>theory of computation</h2>
+</center>  
+  <p style="color:dodgerblue;">Theory of computation (TOC) is a branch of Computer Science that is concerned with how problems can be solved
+ using algorithms and how efficiently they can be solved. Real-world computers perform computations that by nature run 
+ like mathematical models to solve problems in systematic ways.</p>
+</div>
+<div style="background-color:lightgray;height:100px;">
+<center>
+  <h2>Alogrithms</h2>
+</center>  
+  <p style="color:red;">An algorithm is a well-defined sequential computational technique that accepts a value or a 
+  collection of values as input and produces the output(s) needed to solve a problem. 
+  Or we can say that an algorithm is said to be accurate if and only if it stops with the proper output for each input 
+  instance.<p>
+</div>
+<div style="background-color:green;height:100px;">
+<center>
+  <h2>Database Management</h2>
+</center>  
+  <p style="color:yellow;">A database management system (or DBMS) is essentially nothing more than a computerized 
+  data-keeping system. Users of the system are given facilities to perform several kinds of operations on such a system for 
+  either manipulation of the data in the database or the management of the database structure itself..</p>
+</div>
+<div style="background-color:cornsilk;height:100px;">
+<center>
+  <h2>Artificial Intelligence and Manchine Learning</h2>
+</center>  
+  <p style="color:slateblue;">An “intelligent” computer uses AI to think like a human and perform tasks on its own. 
+  Machine learning is how a computer system develops its intelligence. One way to train a computer to mimic human reasoning
+  is to use a neural network, which is a series of algorithms that are modeled after the human brain.</p>
+</div>
+</body>
+</html>
