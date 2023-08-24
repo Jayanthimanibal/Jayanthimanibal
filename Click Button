@@ -1,0 +1,28 @@
+<html>
+<body>
+<p>Click to trigger a function that will output "Hello World":</p>
+
+<button onclick="myFunction1()">Click me1</button>
+<button onclick="myFunction2()">Click me2</button>
+<button onclick="myFunction3()">Click me3</button>
+<button onclick="myFunction4()">Click me4</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction1() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+function myFunction2() {
+  document.getElementById("demo").innerHTML = "hi";
+}
+function myFunction3() {
+  document.getElementById("demo").innerHTML = "i am here";
+}
+function myFunction4() {
+  document.getElementById("demo").innerHTML = "are you come with me";
+}
+</script>
+
+</body>
+</html>
